@@ -15,7 +15,7 @@ function MSG(){
         var ll = [senhatxt, emailtxt]
         window.alert(ll)
         let ind = ll.indexOf('andre.mani2015@gmail.com')
-        let inds = ll.indexOf('deus123')
+        let inds = ll.indexOf('contrataeupls')
         if (ind > -1){
             window.alert(`achamos na posição email ${ind}`)
 
