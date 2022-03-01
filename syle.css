@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bakbak+One&family=Bebas+Neue&family=Fredoka+One&family=Lato:ital,wght@1,300&family=League+Gothic&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Patrick+Hand&family=Rajdhani&family=Rowdies:wght@300&family=Saira+Condensed:wght@200&family=Staatliches&display=swap');
+
+body{
+
+    background-image: url(pexels-pixabay-220201.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1em ;
+    font-family:'League Gothic', sans-serif;;
+}
+
+.main-content{
+
+    text-align: center;
+    margin-top: 30%;
+    background-color: rgba(42, 66, 99, 0.534);
+    padding: 2em 0;
+    border-radius: 5px;
+    
+}
+
+
+.label-email{
+
+    color:black;
+    display: block;
+    font-size: 3em;
+}
+
+.label-senha{
+
+    color: black;
+    display: block;
+    font-size: 3em;
+}
+
+#email{
+
+    text-align: center;
+    margin-bottom: 32px;
+    width: 70%;
+    border: none;
+    background-color: inherit;
+    border-bottom: black solid 2px;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+#senha{
+
+    width: 70%;
+    border: none;
+    border: none;
+    background-color: inherit;
+    border-bottom: black solid 2px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+input:focus{
+
+    background-color: aliceblue;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.button{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 25px;
+    background: rgba(95, 135, 194, 0.055);
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+    padding: 1em ;
+}
+
+ul{
+
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 40px;    
+}
+
+li{
+
+    display: inline;
+    margin-left: 10px;
+}
+
+footer a{
+
+    text-decoration: none;
+    font-size: 23px ;
+    text-align: center;
+}
+
+footer a:hover{
+
+    color: black;
+    transition: all ease-in .3s;
+}
+
+@media screen and (min-width: 1000px) {
+    
+        .main-content{
+
+            width: 600px;
+            height: 564.5px;
+            background-color: white;
+            margin: auto;
+            margin-top: 5%;
+            margin-left: 25%;
+            
+            float: left;
+            border-radius: 0;
+            padding: 140px;
+            box-sizing: border-box;
+
+        }
+
+ 
+        .button{
+
+            width: 200px;
+            background-color: rgba(137, 43, 226, 0.863);
+            margin-top: 50px;
+        }
+
+        .button:hover{
+
+            background-color: rgba(156, 81, 226, 0.863);
+
+        }
+
+        #email, #senha{
+
+            color: black;
+        }
+
+        @media screen and (min-width: 1490px) {
+            
+            
+        section{
+
+            display: inline;
+            height: fit-content;
+            text-align: center;
+            
+            
+        }
+        .main-content{
+
+            width: 600px;
+            height: 564.5px;
+            background-color: white;
+            margin: auto;
+            margin-top: 5%;
+            margin-left: 12%;
+            float: left;
+            border-radius: 0;
+            padding: 140px;
+            box-sizing: border-box;
+
+        }
+
+
+            .daimg{
+
+                width: 670px;
+                height: 564.5px;
+                display: inline-block;
+                background-image: url(pexels-jakub-novacek-924824.jpg);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                border-radius: 0px 5px 0px 5px;
+                
+                float: left;
+                margin-top: 5%;
+                
+            }
+        }
+}
+
